@@ -1,0 +1,60 @@
+body {
+	color: white;
+	background: rgba(0, 0, 0, 0.9);
+	font-size: 1.3vw;
+}
+.read {
+	background: rgba(0,0,0,0.6);
+}
+
+.row a {
+	color: white;
+	font-style: italic;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+ol {
+	list-style-type: none;
+}
+ol .row {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+ol li{
+	background: #000000;
+	height: 50px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+
+.col-sm-2 {
+	padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.newnotif {
+	animation: animate 4s linear forwards;
+	margin: 0;
+	width: 100%;
+}
+
+@keyframes animate {
+	from{
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+.col-sm-1 i {
+	color: #000000;
+	
+}

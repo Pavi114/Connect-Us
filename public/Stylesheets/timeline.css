@@ -1,0 +1,64 @@
+body {
+	background: rgba(0,0,0,0.9);
+    color: #FFFFFF;
+    font-family: Rubik;
+    font-size: 1.3vw;
+}
+
+.container {
+	width: 80%;
+	margin-top: 100px;
+}
+
+#list,#trending {
+	background: rgba(0,0,0,0.6);
+	padding: 20px;
+	border-radius: 10px;
+	list-style-type: none;
+}
+#trending {
+	border: 1px solid #ff4500;
+	padding: 10px;
+	color: #ff4500;
+}
+
+.hash {
+   font-size: 1.5vw;
+}
+
+.count {
+	font-size: 1vw;
+	color: #ff8243;
+}
+
+.li img {
+	border: 1px solid white;
+	margin-left: 55px;
+	margin-bottom: 8px;
+	margin-top: 8px
+}
+
+.li .row .col-sm-6 img {
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	margin-left: 20px;
+}
+
+.share {
+	margin-left: 20px;
+}
+
+hr {
+	background-color: rgba(255,255,255,0.1);
+	width: 100%;
+	height: 1px;
+}
+.back {
+	color: #FFFF44;
+	border: 1px solid #FFFF44;
+}
+
+.viewthread {
+	color: rgba(255, 255, 255, 0.4);
+	font-family: Handlee;
+}
